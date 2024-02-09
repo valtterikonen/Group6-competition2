@@ -1,5 +1,6 @@
 import Rating from './components/Rating';
 import Drivercard from './components/Drivercard';
+import ClickablePicture from './components/ClickablePicture';
 import './App.css';
 
 function App() {
@@ -18,6 +19,13 @@ function App() {
       <h1>Iteration 2: Driver Cards</h1>
         <Drivercard /> 
       </>
+      <div className="ClickablePicture">
+        <h1>Iteration 4: ClickablePicture</h1>
+        <ClickablePicture
+        img="./images/maxence.png"
+        imgClicked="./images/maxence-glasses.png"
+        />
+      </div>
     </div>
   );
 }
