@@ -22,17 +22,17 @@ function App() {
       <h1>Iteration 2: Driver Cards</h1>
         <Drivercard /> 
       </>
+      <h1>Iteration 3: Like Button</h1>
+      <div className="LikeButton">
+        <LikeButton />
+        <LikeButton />
+      </div>
       <div className="ClickablePicture">
         <h1>Iteration 4: ClickablePicture</h1>
         <ClickablePicture
         img="./images/maxence.png"
         imgClicked="./images/maxence-glasses.png"
         />
-      </div>
-      <h1>Iteration 3: Like Button</h1>
-      <div className="LikeButton">
-        <LikeButton />
-        <LikeButton />
       </div>
       <h1>Iteration 5: Dice</h1>
       <div>
