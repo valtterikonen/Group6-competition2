@@ -1,6 +1,7 @@
 // App.js
 import React from 'react';
 import Rating from './components/Rating';
+import LikeButton from './components/Likebutton';
 import './App.css';
 
 function App() {
@@ -13,6 +14,10 @@ function App() {
         <Rating stars={3} />
         <Rating stars={4} />
         <Rating stars={5} />
+     </div>
+      <div className="LikeButtons">
+        <LikeButton />
+        <LikeButton />
       </div>
     </div>
   );
